@@ -1,0 +1,21 @@
+<form class>
+	<fieldset>
+		<legend>Enviar</legend>
+	</fieldset>
+	<div class="control-group">
+		<label class="control-label" for="inputLocal">Local</label>
+		<div class="controls">
+			<input class="input-xxlarge" type="text" id="local" value="<%= local %>"/>
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label" for="inputDescricao">Descrição</label>
+		<div class="controls">
+			<textarea class="input-xxlarge" rows="10" id="description"> <%= description %> </textarea>
+		</div>
+	</div>
+	<div class="control-group">
+		<button id="save" class="btn btn-primary">Enviar</button>
+		<button id="cancel"class="btn btn-danger">Cancelar</button>
+	</div>
+</form>

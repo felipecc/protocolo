@@ -1,0 +1,18 @@
+Configuração utilizada
+---------------------------------
+1 mongodb 2.0.5
+2 nodejs 0.8.6
+
+Executando a aplicação
+---------------------------------
+
+1 Crie um diretorio no raiz do projeto com o nome db_tmp
+
+2 No diretorio raiz execute o comando: npm install
+
+3 execute o comando: mongod --dbpath=db_tmp
+
+4 execute o comando: node server.js
+
+
+
